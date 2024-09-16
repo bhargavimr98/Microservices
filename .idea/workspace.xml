@@ -5,44 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47860ff7-12e8-4561-80bb-2dbdcace2134" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/java/com/microservices/configserver/ConfigserverApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts-qa.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/cards-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/cards-qa.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/cards.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/loans-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/loans-qa.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/loans.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configserver/src/test/java/com/microservices/configserver/ConfigserverApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application_prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application_prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application_qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application_qa.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application_prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application_prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application_qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application_qa.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application_prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application_prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application_qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application_qa.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2m6VqpATPSNEe9Xc9AXOzcFwbwP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Udemy/microservices/configserver/src/main/resources/config"
+    "last_opened_file_path": "E:/Udemy/microservices"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,7 +62,15 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47860ff7-12e8-4561-80bb-2dbdcace2134" name="Changes" comment="" />
+      <created>1726397226863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726397226863</updated>
+    </task>
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
