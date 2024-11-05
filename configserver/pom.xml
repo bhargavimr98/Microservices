@@ -69,7 +69,7 @@
 				<version>3.3.2</version>
 				<configuration>
 					<to>
-						<image>bhargavimr/${project.artifactId}:v1</image>
+						<image>bhargavimr/${project.artifactId}:v9</image>
 					</to>
 				</configuration>
 			</plugin>
