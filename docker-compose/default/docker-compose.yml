@@ -1,4 +1,16 @@
 services:
+  keycloak:
+    image: quay.io/keycloak/keycloak:25.0.2
+    container_name: keycloak
+    ports:
+      - "7080:8080"
+    environment:
+      KEYCLOAK_ADMIN: "admin"
+      KEYCLOAK_ADMIN_PASSWORD: "admin"
+    command: "start-dev"
+    extends:
+      file: common-config.yml
+      service: network-deploy-service
 
   read:
     image: grafana/loki:latest
@@ -216,7 +228,7 @@ services:
       service: network-deploy-service
 
   configserver:
-    image: "bhargavimr/configserver:v11"
+    image: "bhargavimr/configserver:v12"
     container_name: configserver-ms
     ports:
       - "8071:8071"
@@ -233,7 +245,7 @@ services:
       OTEL_SERVICE_NAME: "configserver"
 
   eurekaserver:
-    image: "bhargavimr/eurekaserver:v11"
+    image: "bhargavimr/eurekaserver:v12"
     container_name: eurekaserver-ms
     ports:
       - "8070:8070"
@@ -251,10 +263,8 @@ services:
       OTEL_SERVICE_NAME: "eurekaserver"
 
   accounts:
-    image: "bhargavimr/accounts:v11"
+    image: "bhargavimr/accounts:v12"
     container_name: accounts-ms
-    ports:
-      - "8080:8080"
     healthcheck:
       test: "curl --fail --silent localhost:8080/actuator/health/readiness | grep UP || exit 1"
       interval: 10s
@@ -269,10 +279,8 @@ services:
       service: microservice-eureka-config
 
   loans:
-    image: "bhargavimr/loans:v11"
+    image: "bhargavimr/loans:v12"
     container_name: loans-ms
-    ports:
-      - "8090:8090"
     healthcheck:
       test: "curl --fail --silent localhost:8090/actuator/health/readiness | grep UP || exit 1"
       interval: 10s
@@ -287,10 +295,8 @@ services:
       service: microservice-eureka-config
 
   cards:
-    image: "bhargavimr/cards:v11"
+    image: "bhargavimr/cards:v12"
     container_name: cards-ms
-    ports:
-      - "9000:9000"
     healthcheck:
       test: "curl --fail --silent localhost:9000/actuator/health/readiness | grep UP || exit 1"
       interval: 10s
@@ -305,7 +311,7 @@ services:
       service: microservice-eureka-config
 
   gatewayserver:
-    image: "bhargavimr/gatewayserver:v11"
+    image: "bhargavimr/gatewayserver:v12"
     container_name: gatewayserver-ms
     ports:
       - "8072:8072"
@@ -319,6 +325,7 @@ services:
     environment:
       SPRING_APPLICATION_NAME: "gatewayserver"
       OTEL_SERVICE_NAME: "gatewayserver"
+      SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_JWK-SET-URI: "http://keycloak:8080/realms/master/protocol/openid-connect/certs"
     extends:
       file: common-config.yml
       service: microservice-eureka-config

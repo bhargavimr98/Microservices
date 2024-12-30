@@ -68,6 +68,18 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-oauth2-resource-server</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-oauth2-jose</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
@@ -107,7 +119,7 @@
 				<version>3.3.2</version>
 				<configuration>
 					<to>
-						<image>bhargavimr/${project.artifactId}:v11</image>
+						<image>bhargavimr/${project.artifactId}:v12</image>
 					</to>
 				</configuration>
 			</plugin>

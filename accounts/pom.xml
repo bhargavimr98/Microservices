@@ -122,7 +122,7 @@
 				<version>3.3.2</version>
 				<configuration>
 					<to>
-						<image>bhargavimr/${project.artifactId}:v11</image>
+						<image>bhargavimr/${project.artifactId}:v12</image>
 					</to>
 				</configuration>
 			</plugin>
